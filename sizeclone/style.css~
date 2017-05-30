@@ -1,0 +1,520 @@
+header {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background: black;
+	display: flex;
+
+}
+
+
+	
+.logosize {
+	height: 50px;
+	width: 50px;
+
+	
+}
+
+.searchbutton {
+	height: 15px;
+	width: 15px;
+	display: flex;
+	align-self: flex-end;
+	align-content: space-between;
+	padding: 0px 0px 15px 30px;
+
+}
+
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+#ups {
+	background-color:grey;
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+
+	
+}
+
+p {
+    position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-family: "proxima-nova-bold";
+	font-size: 20px;
+	text-align: center;
+	margin: 0px; 
+
+}
+
+.adidasnew {
+	width: 100%;
+	height: 600px ;
+}
+
+
+
+h2 {
+	font-family: "proxima-nova-bold";
+	font-size: 27px;
+	font-weight: 400;
+	padding: 10px 20px 0px 0px;
+	margin-left: 30px;
+}
+
+
+
+
+.collection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	width: calc(100% - 45px);
+	padding-left: 20px;
+	margin-left: 40px;
+	margin-right:10px;
+	margin-bottom: 50px;
+
+}
+
+
+.collection img {
+	width: 260px;
+	height: 310px;
+	margin: 10px 20px 30px 30px;
+
+}
+
+.bottom {
+	width: 100%;
+	height: 280px;
+}
+.top {
+	width: 100%;
+	height: 280px;
+}
+
+#cf {
+	position:relative;
+	height:281px;
+	width:100%;
+	margin:0 auto;
+}
+
+#cf img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+	opacity:0;
+}
+figure {
+	display: inline-block; 
+	margin: 0;
+	width: min-content;
+
+
+}
+
+figcaption {
+
+	text-align: center;
+	font-size: 15px;
+	font-family: Verdana;
+	font-style: normal;
+	list-style-type: disc;
+	color: grey;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+figure img {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+
+
+a.button{
+		display:block;
+		border-radius: 2px;
+		height:40px;
+		text-align: center;
+		background-color: #fff;
+		box-sizing: border-box;
+	    text-transform: none;
+	    background: #fff;
+	    font-family: "proxima-nova-extrabold", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+	    padding: 15px 20px;
+	    display: block;
+	    text-align: center;
+	    border-radius: 2px;
+	    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+	    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	    box-sizing: border-box;
+	    border: 0px;
+	    line-height: 20px;
+	    margin-bottom: -6px;
+	    margin: 50px auto 100px;
+	    width: 150px;
+	    color: #333;
+	    left: 0px;
+	    height: auto;
+	    font-weight: 400;
+
+
+}
+
+.News {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	width: calc(100% - 200px);
+	padding-left: 0px;
+	margin-left: 130px;
+	margin-bottom: 30px;
+}
+
+.News img {
+	width: 330px;
+	height: 453px;
+	margin: 20px 20px 10px 20px;
+
+}
+	
+.pumafenty {
+	width: 100%;
+	height: 280px;
+	margin-bottom: 10px;
+}	
+
+h3 {
+
+	font-family: "proxima-nova-bold";
+	font-size: 27px;
+	font-weight: 400;
+	padding: 10px 20px 0px 20px;
+	margin-left: 130px;
+	margin-top:45px;
+	margin-bottom: 0;
+}	
+
+ul.filter {
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+.filter li {
+	display: inline;
+	list-style: none;
+	padding-left: 30px;
+	margin-left: 10px;
+}
+
+.filter a {
+	padding : 3px 10px;
+	margin-left: -29px;
+	margin-right: -12px;
+
+}
+.filter a:link, .filter a:visited {
+	color: #fff;
+	background-color: #696969;
+	text-decoration: none;
+
+
+}
+
+.filter a:hover {
+	color: #fff;
+	background-color: lightgrey;
+	text-decoration: none;
+	border-radius: 1px;
+	box-shadow: 1px 1px 0px grey;
+}
+
+
+.bloggers {
+	width : 100%;
+	height : 280px;
+	margin-bottom: 0px;
+}
+
+footer {
+	margin: 0;
+	width: 100%;
+	height: 500px;
+	background: black;
+}
+
+.storefooter {
+	text-align: center;
+}
+
+input {
+	background-color: black;
+	width: 100px;
+	height: 50px;
+	align-content: bottom;
+	border: none;
+	color: white;
+	display: flex;
+	align-self: flex-end;
+	padding-left: 6px;
+}
+
+.navigation {
+	display: flex;
+	align-content: space-between;
+	flex-direction: row;
+	list-style: none;
+	font-family: Verdana;
+	color: white;
+	font-size: 13px;
+
+}
+
+#navi {
+	display: flex;
+	flex-direction: row;
+	width: 450px;
+	height:40px;
+	margin-left:500px;
+	margin-top: 10px;
+}
+
+/* navigation header */
+a {
+text-decoration: none; 
+color: white; 
+font-size:13px;
+}
+
+
+a:hover {
+color: white;
+text-decoration: underline;
+}
+
+
+.button:hover {
+	color: black;
+	text-decoration: none;
+	border-radius:1px;
+	box-shadow: 8px 8px 8px 8px lightgrey;
+	
+
+}
+
+.basket {
+	margin: 21px -30px 0px 0px;
+	display: flex;	
+	width: 150px;
+	height: 30px;
+
+}
+
+.basketlogo {
+	width: 15px;
+	height: 15px;
+
+}
+
+.basket p {
+	color: white;
+	font-size: 13px;
+	font-family: Verdana;
+}
+
+.capnews {
+
+	text-align: left;
+	font-family: "proxima-nova-extra-thin";
+	font-style: thin;
+	list-style-type: disc;
+	padding: 0px;
+	margin: 0px 0px 0px 25px;
+	font-size: 39px;
+	line-height: 1em;
+	font-weight: 100;
+	color: #333333;
+
+}
+
+.capnewslil {
+	text-align: left;
+	font-family: "proxima-nova-extra-thin";
+	font-style: thin;
+	list-style-type: disc;
+	padding: 0px;
+	margin: 0px 0px 0px 26px;
+	font-size: 15px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: #333333;
+}
+
+
+.pumafentybanner {
+	background: url(/Documents/dev/Size-website/pumafentylarge.jpg)
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+	margin-bottom: 80px;
+}
+
+#languages {
+	line-height: 18px;
+  	padding: 8px;
+	height: 36px;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #DFDFDF;
+	transition: color .3s,background-color .3s,border-color .3s,opacity .3s;
+	background-color: #fff;
+	border-color: #ccc;
+	font-family: arial;
+	font-size: 10pt;
+	border-collapse: collapse;
+	display: inline;
+	align-self: bottom-left ;
+}
+ #languages:hover {
+ 	text-decoration: none;
+	border-radius:1px;
+	color:black;
+
+ }
+
+.storefooter {
+	width: 250px;
+	height: 250px;
+	
+}
+
+.socialmedia {
+	color: white;
+}
+.socialmedia i {
+	font-size: 2em;
+}
+
+
+.categ {
+	display:flex;
+}
+
+.categ li {
+	color: white;
+	margin-left: 20px;
+	list-style: none;
+
+}
+.brands:hover ul {
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.brandscateg img {
+	width: 130px;
+	margin-left: 8px;
+}
+
+.brandscateg {
+	background: grey;
+	z-index: 5;
+	position: absolute;
+	justify-content: flex-start;
+	width: 850px;
+	height: 400px;
+	display: none;
+	margin-top: 0px;
+	margin-left:-550px;
+	
+
+}
+
+.navbasket {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+#category {
+	margin-left: -400px;
+
+
+}
+
+.piccaption {
+	background-image: url(bloglarge.jpg);
+	width: 100%;
+	height: 220px;
+}
+
+.piccaption p {
+	font-family: "proxima-nova-bold";
+	font-size: 30px;
+	color: grey;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

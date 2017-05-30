@@ -1,0 +1,23 @@
+header {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+.logosearch {
+	width: 30%;
+	height: 100px;
+	background-color: blue;
+	position: fixed;
+	margin: auto;
+}
+body {
+	background-color: black;
+}
+
+
+.navbottom {
+	background-color: red;
+	height: 50px;
+}
+
